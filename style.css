@@ -11,17 +11,17 @@ body {
   height: 80vh;
   width: 80vh;
   position: relative;
-  border: 5px solid;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: grey;
 }
 
 .red-container {
   border-radius: 18%;
   position: absolute;
-  height: 35%;
-  width: 35%;
+  height: 39.6%;
+  width: 39.6%;
   background-color: hsl(0, 100%, 50%);
   top: 0;
   left: 0;
@@ -30,8 +30,8 @@ body {
 .blue-container {
   border-radius: 18%;
   position: absolute;
-  height: 35%;
-  width: 35%;
+  height: 39.6%;
+  width: 39.6%;
   background-color: hsl(240, 100%, 50%);
   top: 0;
   right: 0;
@@ -40,8 +40,8 @@ body {
 .green-container {
   border-radius: 18%;
   position: absolute;
-  height: 35%;
-  width: 35%;
+  height: 39.6%;
+  width: 39.6%;
   background-color: hsl(120, 100%, 25%);
   bottom: 0;
   left: 0;
@@ -50,8 +50,8 @@ body {
 .yellow-container {
   border-radius: 18%;
   position: absolute;
-  height: 35%;
-  width: 35%;
+  height: 39.6%;
+  width: 39.6%;
   background-color: hsl(60, 100%, 50%);
   bottom: 0;
   right: 0;
@@ -112,7 +112,7 @@ body {
 }
 
 .seto-green {
-  background-color: hsl(120, 100%, 5%);
+  background-color: hsl(120, 100%, 11%);
 }
 
 .seto-yellow {
@@ -122,3 +122,169 @@ body {
 .seto-blue {
   background-color: hsl(240, 100%, 30%);
 }
+
+.bato{
+  background-color: white;
+  position: absolute;
+  height: 6.66%;
+  width: 6.66%;
+  border: 2px solid;
+}
+
+/* ya dekhi talako ho */
+
+.one{
+  bottom: 0%;
+  left: 39.5%;
+  border-radius: 0 0 0 100%;
+
+}
+.two{
+  bottom: 6.66%;
+  left: 39.5%;
+}
+.three{
+  bottom: 13.33%;
+  left: 39.5%;
+}
+.four{
+  bottom: 20%;
+  left: 39.5%;
+}
+.five{
+  bottom: 26.66%;
+  left: 39.5%;
+}
+.six{
+  bottom: 33.33%;
+  left: 39.5%;
+}
+.seven{
+  bottom: 0%;
+  left: 46.36%;
+}
+.eight{
+  bottom: 6.66%;
+  left: 46.36%;
+}
+.nine{
+  bottom: 13.33%;
+  left: 46.36%;
+}
+.ten{
+  bottom: 20%;
+  left: 46.36%;
+}
+.eleven{
+  bottom: 26.66%;
+  left: 46.36%;
+}
+.twelve{
+  bottom: 33.33%;
+  left: 46.36%;
+}
+.threet{
+  border-radius: 0 0 100% 0;
+  bottom: 0%;
+  left: 53.27%;
+}
+.fourt{
+  bottom: 6.66%;
+  left: 53.27%;
+}
+.fivet{
+  bottom: 13.33%;
+  left: 53.27%;
+}
+.sixt{
+  bottom: 20%;
+  left: 53.27%;
+}
+.sevent{
+  bottom: 26.66%;
+  left: 53.27%;
+}
+.eightt{
+  bottom: 33.33%;
+  left: 53.27%;
+}
+
+/* ya dekhi left ko ho */
+
+.ninet{
+  left: 0%;
+  bottom: 39.5%;
+  border-radius: 0 0 0 100%;
+
+}
+.twenty{
+  left: 6.66%;
+  bottom: 39.5%;
+}
+.twentyone{
+  left: 13.33%;
+  bottom: 39.5%;
+}
+.twentytwo{
+  left: 20%;
+  bottom: 39.5%;
+}
+.twentythree{
+  left: 26.66%;
+  bottom: 39.5%;
+}
+.twentyfour{
+  left: 33.33%;
+  bottom: 39.5%;
+}
+.twentyfive{
+  left: 0%;
+  bottom: 46.36%;
+}
+.twentysix{
+  left: 6.66%;
+  bottom: 46.36%;
+}
+.twentyseven{
+  left: 13.33%;
+  bottom: 46.36%;
+}
+.twentyeight{
+  left: 20%;
+  bottom: 46.36%;
+}
+.twentynine{
+  left: 26.66%;
+  bottom: 46.36%;
+}
+.thirty{
+  left: 33.33%;
+  bottom: 46.36%;
+}
+.thirtyone{
+  border-radius: 100% 0 0 0;
+  left: 0%;
+  bottom: 53.27%;
+}
+.thirtytwo{
+  left: 6.66%;
+  bottom: 53.27%;
+}
+.thirtythree{
+  left: 13.33%;
+  bottom: 53.27%;
+}
+.thirtyfour{
+  left: 20%;
+  bottom: 53.27%;
+}
+.thirtyfive{
+  left: 26.66%;
+  bottom: 53.27%;
+}
+.thirtysix{
+  left: 33.33%;
+  bottom: 53.27%;
+}
+
+
