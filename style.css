@@ -1,43 +1,57 @@
 body {
+  height: 100vh;
   margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ludo-container {
-  height: 100vh;
+  border-radius: 7%;
+  height: 80vh;
+  width: 80vh;
   position: relative;
+  border: 5px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.red-pieces {
-  /* position: absolute; */
-  height: 200px;
-  max-width: 200px;
+.red-container {
+  border-radius: 18%;
+  position: absolute;
+  height: 35%;
+  width: 35%;
   background-color: red;
   top: 0;
   left: 0;
 }
 
-.blue-pieces {
+.blue-container {
+  border-radius: 18%;
   position: absolute;
-  height: 200px;
-  width: 200px;
+  height: 35%;
+  width: 35%;
   background-color: blue;
   top: 0;
   right: 0;
 }
 
-.green-pieces {
+.green-container {
+  border-radius: 18%;
   position: absolute;
-  height: 200px;
-  width: 200px;
+  height: 35%;
+  width: 35%;
   background-color: green;
   bottom: 0;
   left: 0;
 }
 
-.yellow-pieces {
+.yellow-container {
+  border-radius: 18%;
   position: absolute;
-  height: 200px;
-  width: 200px;
+  height: 35%;
+  width: 35%;
   background-color: yellow;
   bottom: 0;
   right: 0;
@@ -45,6 +59,15 @@ body {
 
 .button-div {
   position: absolute;
-  right: 700px;
-  top: 300px;
 }
+
+.seto{
+  border-radius: 15%;
+  position: absolute;
+  height: 60%;
+  width: 60%;
+  top: 20%;
+  left: 20%;
+  background-color: white;
+}
+
