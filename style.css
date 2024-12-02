@@ -123,7 +123,7 @@ body {
   background-color: hsl(240, 100%, 30%);
 }
 
-.bato{
+.bato {
   background-color: white;
   position: absolute;
   height: 6.66%;
@@ -133,158 +133,308 @@ body {
 
 /* ya dekhi talako ho */
 
-.one{
+.one {
   bottom: 0%;
   left: 39.5%;
   border-radius: 0 0 0 100%;
-
 }
-.two{
+.two {
   bottom: 6.66%;
   left: 39.5%;
 }
-.three{
+.three {
   bottom: 13.33%;
   left: 39.5%;
 }
-.four{
+.four {
   bottom: 20%;
   left: 39.5%;
 }
-.five{
+.five {
   bottom: 26.66%;
   left: 39.5%;
 }
-.six{
+.six {
   bottom: 33.33%;
   left: 39.5%;
 }
-.seven{
+.seven {
   bottom: 0%;
   left: 46.36%;
 }
-.eight{
+.eight {
   bottom: 6.66%;
   left: 46.36%;
 }
-.nine{
+.nine {
   bottom: 13.33%;
   left: 46.36%;
 }
-.ten{
+.ten {
   bottom: 20%;
   left: 46.36%;
 }
-.eleven{
+.eleven {
   bottom: 26.66%;
   left: 46.36%;
 }
-.twelve{
+.twelve {
   bottom: 33.33%;
   left: 46.36%;
 }
-.threet{
+.threet {
   border-radius: 0 0 100% 0;
   bottom: 0%;
   left: 53.27%;
 }
-.fourt{
+.fourt {
   bottom: 6.66%;
   left: 53.27%;
 }
-.fivet{
+.fivet {
   bottom: 13.33%;
   left: 53.27%;
 }
-.sixt{
+.sixt {
   bottom: 20%;
   left: 53.27%;
 }
-.sevent{
+.sevent {
   bottom: 26.66%;
   left: 53.27%;
 }
-.eightt{
+.eightt {
   bottom: 33.33%;
   left: 53.27%;
 }
 
 /* ya dekhi left ko ho */
 
-.ninet{
+.ninet {
   left: 0%;
   bottom: 39.5%;
   border-radius: 0 0 0 100%;
-
 }
-.twenty{
+.twenty {
   left: 6.66%;
   bottom: 39.5%;
 }
-.twentyone{
+.twentyone {
   left: 13.33%;
   bottom: 39.5%;
 }
-.twentytwo{
+.twentytwo {
   left: 20%;
   bottom: 39.5%;
 }
-.twentythree{
+.twentythree {
   left: 26.66%;
   bottom: 39.5%;
 }
-.twentyfour{
+.twentyfour {
   left: 33.33%;
   bottom: 39.5%;
 }
-.twentyfive{
+.twentyfive {
   left: 0%;
   bottom: 46.36%;
 }
-.twentysix{
+.twentysix {
   left: 6.66%;
   bottom: 46.36%;
 }
-.twentyseven{
+.twentyseven {
   left: 13.33%;
   bottom: 46.36%;
 }
-.twentyeight{
+.twentyeight {
   left: 20%;
   bottom: 46.36%;
 }
-.twentynine{
+.twentynine {
   left: 26.66%;
   bottom: 46.36%;
 }
-.thirty{
+.thirty {
   left: 33.33%;
   bottom: 46.36%;
 }
-.thirtyone{
+.thirtyone {
   border-radius: 100% 0 0 0;
   left: 0%;
   bottom: 53.27%;
 }
-.thirtytwo{
+.thirtytwo {
   left: 6.66%;
   bottom: 53.27%;
 }
-.thirtythree{
+.thirtythree {
   left: 13.33%;
   bottom: 53.27%;
 }
-.thirtyfour{
+.thirtyfour {
   left: 20%;
   bottom: 53.27%;
 }
-.thirtyfive{
+.thirtyfive {
   left: 26.66%;
   bottom: 53.27%;
 }
-.thirtysix{
+.thirtysix {
   left: 33.33%;
   bottom: 53.27%;
 }
 
+/* yadekhi aarkai bato ho */
 
+.thirtyseven {
+  right: 0%;
+  top: 39.5%;
+  border-radius: 0 100% 0 0;
+}
+.thirtyeight {
+  right: 6.66%;
+  top: 39.5%;
+}
+.thirtynine {
+  right: 13.33%;
+  top: 39.5%;
+}
+.fourty {
+  right: 20%;
+  top: 39.5%;
+}
+.fourtyone {
+  right: 26.66%;
+  top: 39.5%;
+}
+.fourtytwo {
+  right: 33.33%;
+  top: 39.5%;
+}
+.fourtythree {
+  right: 0%;
+  top: 46.36%;
+}
+.fourtyfour {
+  right: 6.66%;
+  top: 46.36%;
+}
+.fourtyfive {
+  right: 13.33%;
+  top: 46.36%;
+}
+.fourtysix {
+  right: 20%;
+  top: 46.36%;
+}
+.fourtyseven {
+  right: 26.66%;
+  top: 46.36%;
+}
+.fourtyeight {
+  right: 33.33%;
+  top: 46.36%;
+}
+.fourtynine {
+  border-radius: 0 0 100% 0;
+  right: 0%;
+  top: 53.27%;
+}
+.fifty {
+  right: 6.66%;
+  top: 53.27%;
+}
+.fiftyone {
+  right: 13.33%;
+  top: 53.27%;
+}
+.fiftytwo {
+  right: 20%;
+  top: 53.27%;
+}
+.fiftythree {
+  right: 26.66%;
+  top: 53.27%;
+}
+.fiftyfour {
+  right: 33.33%;
+  top: 53.27%;
+}
+
+/* yadekhi aarkai bato ho */
+
+.fiftyfive {
+  top: 0%;
+  right: 39.5%;
+  border-radius: 0 100% 0 0;
+}
+.fiftysix {
+  top: 6.66%;
+  right: 39.5%;
+}
+.fiftyseven {
+  top: 13.33%;
+  right: 39.5%;
+}
+.fiftyeight {
+  top: 20%;
+  right: 39.5%;
+}
+.fiftynine {
+  top: 26.66%;
+  right: 39.5%;
+}
+.sixty {
+  top: 33.33%;
+  right: 39.5%;
+}
+.sixtyone {
+  top: 0%;
+  right: 46.36%;
+}
+.sixtytwo {
+  top: 6.66%;
+  right: 46.36%;
+}
+.sixtythree {
+  top: 13.33%;
+  right: 46.36%;
+}
+.sixtyfour {
+  top: 20%;
+  right: 46.36%;
+}
+.sixtyfive {
+  top: 26.66%;
+  right: 46.36%;
+}
+.sixtysix {
+  top: 33.33%;
+  right: 46.36%;
+}
+.sixtyseven {
+  border-radius: 100% 0 0 0;
+  top: 0%;
+  right: 53.27%;
+}
+.sixtyeight {
+  top: 6.66%;
+  right: 53.27%;
+}
+.sixtynine {
+  top: 13.33%;
+  right: 53.27%;
+}
+.seventy {
+  top: 20%;
+  right: 53.27%;
+}
+.seventyone {
+  top: 26.66%;
+  right: 53.27%;
+}
+.seventytwo {
+  top: 33.33%;
+  right: 53.27%;
+}
