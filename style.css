@@ -4,10 +4,47 @@ body {
 
 .ludo-container {
   height: 100vh;
+  position: relative;
 }
 
 .red-pieces {
+  /* position: absolute; */
+  height: 200px;
+  max-width: 200px;
+  background-color: red;
+  top: 0;
+  left: 0;
+}
+
+.blue-pieces {
+  position: absolute;
   height: 200px;
   width: 200px;
-  background-color: red;
+  background-color: blue;
+  top: 0;
+  right: 0;
+}
+
+.green-pieces {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  bottom: 0;
+  left: 0;
+}
+
+.yellow-pieces {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  bottom: 0;
+  right: 0;
+}
+
+.button-div {
+  position: absolute;
+  right: 700px;
+  top: 300px;
 }
