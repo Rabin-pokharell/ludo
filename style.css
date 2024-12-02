@@ -22,7 +22,7 @@ body {
   position: absolute;
   height: 35%;
   width: 35%;
-  background-color: red;
+  background-color: hsl(0, 100%, 50%);
   top: 0;
   left: 0;
 }
@@ -32,7 +32,7 @@ body {
   position: absolute;
   height: 35%;
   width: 35%;
-  background-color: blue;
+  background-color: hsl(240, 100%, 50%);
   top: 0;
   right: 0;
 }
@@ -42,7 +42,7 @@ body {
   position: absolute;
   height: 35%;
   width: 35%;
-  background-color: green;
+  background-color: hsl(120, 100%, 25%);
   bottom: 0;
   left: 0;
 }
@@ -52,7 +52,7 @@ body {
   position: absolute;
   height: 35%;
   width: 35%;
-  background-color: yellow;
+  background-color: hsl(60, 100%, 50%);
   bottom: 0;
   right: 0;
 }
@@ -61,13 +61,64 @@ body {
   position: absolute;
 }
 
-.seto{
+.seto {
   border-radius: 15%;
   position: absolute;
-  height: 60%;
-  width: 60%;
-  top: 20%;
-  left: 20%;
+  height: 70%;
+  width: 70%;
+  top: 15%;
+  left: 15%;
   background-color: white;
 }
 
+.seto div {
+  width: 30%;
+  height: 30%;
+  margin: 10px;
+  background-color: hsl(0, 0%, 100%);
+  position: absolute;
+}
+
+.first {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+}
+
+.second {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+}
+
+.third {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+}
+
+.fourth {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+}
+
+.seto-red {
+  background-color: hsl(0, 100%, 30%);
+}
+
+.seto-green {
+  background-color: hsl(120, 100%, 5%);
+}
+
+.seto-yellow {
+  background-color: hsl(60, 100%, 30%);
+}
+
+.seto-blue {
+  background-color: hsl(240, 100%, 30%);
+}
