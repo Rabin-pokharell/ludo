@@ -14,7 +14,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: grey;
+  background-color: hsl(0, 0%, 40%);
+  outline: 5px solid;
 }
 
 .red-container {
@@ -142,6 +143,7 @@ body {
 .two {
   bottom: 6.66%;
   left: 39.5%;
+  background-color: green;
 }
 .three {
   bottom: 13.33%;
@@ -230,7 +232,27 @@ body {
 .twentyone {
   left: 13.33%;
   bottom: 39.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
+.twentyone-safe{
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twentyone-safe-out{
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  width: 80%;
+  height: 80%;
+  background-color: white;
+}
+
 .twentytwo {
   left: 20%;
   bottom: 39.5%;
@@ -281,6 +303,7 @@ body {
 .thirtytwo {
   left: 6.66%;
   bottom: 53.27%;
+  background-color: red;
 }
 .thirtythree {
   left: 13.33%;
@@ -365,6 +388,7 @@ body {
 .fifty {
   right: 6.66%;
   top: 53.27%;
+  background-color: yellow;
 }
 .fiftyone {
   right: 13.33%;
@@ -394,6 +418,7 @@ body {
 .fiftysix {
   top: 6.66%;
   right: 39.5%;
+  background-color: blue;
 }
 .fiftyseven {
   top: 13.33%;
